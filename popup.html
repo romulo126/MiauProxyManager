@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proxy Manager Pro</title>
+  <link href="popup.css" rel="stylesheet">
+</head>
+<body>
+  <h3>Proxy Profiles</h3>
+  <select id="profileSelect"></select>
+  <button id="activateProfile">Activate Profile</button>
+  <button id="deleteProfile">Delete Profile</button>
+  <button id="disableProxy">Disable Proxy</button>
+  
+  <h3>Add New Profile</h3>
+  <input type="text" id="proxyName" placeholder="Profile Name">
+  <input type="text" id="proxyHost" placeholder="Proxy Host (e.g., 192.168.1.1)">
+  <input type="text" id="proxyPort" placeholder="Proxy Port (e.g., 8080)">
+  <input type="color" id="proxyColor" placeholder="Proxy Color">
+
+  <button id="addProfile">Add Profile</button>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
